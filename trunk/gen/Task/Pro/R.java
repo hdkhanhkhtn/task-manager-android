@@ -20,11 +20,12 @@ public final class R {
         public static final int nen=0x7f020006;
         public static final int nen2=0x7f020007;
         public static final int nen3=0x7f020008;
-        public static final int tab1=0x7f020009;
-        public static final int tab_app=0x7f02000a;
-        public static final int tabapp=0x7f02000b;
-        public static final int tabprocess=0x7f02000c;
-        public static final int xx=0x7f02000d;
+        public static final int nen4=0x7f020009;
+        public static final int tab1=0x7f02000a;
+        public static final int tab_app=0x7f02000b;
+        public static final int tabapp=0x7f02000c;
+        public static final int tabprocess=0x7f02000d;
+        public static final int xx=0x7f02000e;
     }
     public static final class id {
         public static final int LinearLayout02=0x7f05000f;

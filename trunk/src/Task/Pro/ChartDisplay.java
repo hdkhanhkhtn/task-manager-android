@@ -14,7 +14,7 @@ public class ChartDisplay extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.thunghiemchart);
 		TextView x=(TextView) findViewById(R.id.memorythunghiem);
-        x.setText(getCPUinfo());
+        x.setText(getMemoryInfo());
 		
 		
 		
@@ -24,7 +24,7 @@ public class ChartDisplay extends Activity{
         ProcessBuilder cmd;
         String result = new String();
         try{
-            String[] args = {"/system/bin/cat", "/proc/meminfo "};
+            String[] args = {"/system/bin/cat", "/proc/meminfo"};
             cmd = new ProcessBuilder(args);
             java.lang.Process process = cmd.start();
             InputStream in = process.getInputStream();
