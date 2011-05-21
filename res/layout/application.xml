@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout 
+		android:layout_height="330dp" android:layout_width="fill_parent"
+
+		>
+		<ListView android:layout_height="wrap_content" android:id="@+id/list"
+			android:layout_width="fill_parent">
+			
+			</ListView>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_weight="0.9" android:layout_height="match_parent"
+		android:layout_width="fill_parent" android:gravity="center_horizontal"
+		>
+		<Button android:layout_height="wrap_content" android:text="Switch to"
+			android:layout_width="100dp" android:id="@+id/button_switchto"></Button>
+		<Button android:layout_height="wrap_content" android:text="End"
+			android:layout_width="100dp" android:id="@+id/button_end"></Button>
+		<Button android:layout_height="wrap_content" android:text="End All"
+			android:layout_width="100dp" android:id="@+id/button_endall"></Button>
+	</LinearLayout>
+</LinearLayout>

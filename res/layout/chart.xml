@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView android:text="CPU" android:id="@+id/textView1"
+		android:textSize="18px" android:background="#BBBBBB"
+		android:textColor="#3cff00" android:textStyle="bold"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1" android:layout_height="70px">
+		<view.CPUView android:id="@+id/cpuview"
+			android:layout_width="match_parent" android:layout_height="match_parent"></view.CPUView>
+	</LinearLayout>
+	<TextView android:text="Memory" android:id="@+id/textView2"
+		android:textColor="#3cff00" android:textStyle="bold" android:textSize="18px"
+		android:background="#BBBBBB" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></TextView>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/LinearLayout02" android:layout_height="250px">
+		<TextView android:text="TextView" android:layout_width="wrap_content"
+		    android:textColor="#FF0000"
+		    android:textSize="15dp"
+			android:layout_height="wrap_content" android:id="@+id/memoryuseview"></TextView>
+
+	</LinearLayout>
+	<TextView android:text="Network" android:id="@+id/textView3"
+		android:textSize="18px" android:background="#BBBBBB"
+		android:textColor="#3cff00" android:textStyle="bold"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+<!--  	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/LinearLayout03" android:layout_height="70px"></LinearLayout> -->
+
+
+</LinearLayout>
