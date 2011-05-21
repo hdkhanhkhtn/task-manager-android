@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/appsLayout" android:baselineAligned="false" android:layout_height="fill_parent" android:layout_width="wrap_content" android:orientation="vertical" android:background="@drawable/bg_all">
+        <LinearLayout
+        	android:id="@+id/listWrapper" 
+        	android:layout_width="match_parent" 
+        	android:baselineAligned="false" 
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	 >
+        <ListView android:id="@+id/listApps" 
+        	android:layout_height="match_parent"        		 
+        	android:layout_width="match_parent"
+        	
+        	></ListView>
+        </LinearLayout>
+        <LinearLayout 
+        	android:id="@+id/groupButton" 
+        	android:baselineAligned="false" 
+        	android:layout_width="match_parent" 
+        	android:layout_height="47px" 
+        	android:layout_marginLeft="20px">
+        	
+        	<Button 
+        		android:text="End Task" 
+        		android:id="@+id/endButton" 
+        		android:layout_height="wrap_content"
+        		android:layout_width="fill_parent"></Button>
+	        
+        </LinearLayout>
+        
+    </LinearLayout>
+    
