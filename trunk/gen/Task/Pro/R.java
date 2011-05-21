@@ -20,47 +20,46 @@ public final class R {
         public static final int nen=0x7f020006;
         public static final int nen2=0x7f020007;
         public static final int nen3=0x7f020008;
-        public static final int nen4=0x7f020009;
-        public static final int tab1=0x7f02000a;
-        public static final int tab_app=0x7f02000b;
-        public static final int tabapp=0x7f02000c;
-        public static final int tabprocess=0x7f02000d;
-        public static final int xx=0x7f02000e;
+        public static final int tab1=0x7f020009;
+        public static final int tab_app=0x7f02000a;
+        public static final int tabapp=0x7f02000b;
+        public static final int tabprocess=0x7f02000c;
+        public static final int xx=0x7f02000d;
     }
     public static final class id {
-        public static final int LinearLayout02=0x7f05000f;
-        public static final int appsLayout=0x7f050007;
-        public static final int bluetooth=0x7f05001c;
-        public static final int bt_pro_end=0x7f050017;
-        public static final int bt_pro_endall=0x7f050018;
-        public static final int button_end=0x7f050005;
-        public static final int button_endall=0x7f050006;
-        public static final int button_switchto=0x7f050004;
-        public static final int checkBox1=0x7f050012;
-        public static final int cpu=0x7f050014;
-        public static final int cpuview=0x7f05000d;
-        public static final int endButton=0x7f05000b;
-        public static final int gps=0x7f05001e;
-        public static final int groupButton=0x7f05000a;
-        public static final int imageView1=0x7f050000;
-        public static final int imageView2=0x7f05001b;
-        public static final int imageviewappandpro=0x7f050013;
-        public static final int linearLayout1=0x7f050003;
-        public static final int list=0x7f050002;
-        public static final int listApps=0x7f050009;
-        public static final int listWrapper=0x7f050008;
-        public static final int memory=0x7f050015;
-        public static final int memorythunghiem=0x7f050020;
-        public static final int memoryuseview=0x7f050010;
-        public static final int network=0x7f050016;
-        public static final int textCheck=0x7f050001;
-        public static final int textView1=0x7f05000c;
-        public static final int textView2=0x7f05000e;
-        public static final int textView3=0x7f050011;
-        public static final int toggleButton1=0x7f05001a;
-        public static final int toggleButton2=0x7f05001d;
-        public static final int toggleButton3=0x7f05001f;
-        public static final int wifi=0x7f050019;
+        public static final int LinearLayout02=0x7f06000f;
+        public static final int appsLayout=0x7f060007;
+        public static final int bluetooth=0x7f06001c;
+        public static final int bt_pro_end=0x7f060017;
+        public static final int bt_pro_endall=0x7f060018;
+        public static final int button_end=0x7f060005;
+        public static final int button_endall=0x7f060006;
+        public static final int button_switchto=0x7f060004;
+        public static final int checkBox1=0x7f060012;
+        public static final int cpu=0x7f060014;
+        public static final int cpuview=0x7f06000d;
+        public static final int endButton=0x7f06000b;
+        public static final int gps=0x7f06001e;
+        public static final int groupButton=0x7f06000a;
+        public static final int imageView1=0x7f060000;
+        public static final int imageView2=0x7f06001b;
+        public static final int imageviewappandpro=0x7f060013;
+        public static final int linearLayout1=0x7f060003;
+        public static final int list=0x7f060002;
+        public static final int listApps=0x7f060009;
+        public static final int listWrapper=0x7f060008;
+        public static final int memory=0x7f060015;
+        public static final int memorythunghiem=0x7f060020;
+        public static final int memoryuseview=0x7f060010;
+        public static final int network=0x7f060016;
+        public static final int textCheck=0x7f060001;
+        public static final int textView1=0x7f06000c;
+        public static final int textView2=0x7f06000e;
+        public static final int textView3=0x7f060011;
+        public static final int toggleButton1=0x7f06001a;
+        public static final int toggleButton2=0x7f06001d;
+        public static final int toggleButton3=0x7f06001f;
+        public static final int wifi=0x7f060019;
     }
     public static final class layout {
         public static final int app_item=0x7f030000;
@@ -75,5 +74,10 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040000;
+    }
+    public static final class style {
+        public static final int MyDefaultTextAppearance=0x7f050002;
+        public static final int MyListView=0x7f050001;
+        public static final int MyTheme=0x7f050000;
     }
 }
